@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "outDir": "../dist/server",
+    "rootDir": ".",
+    "declarationDir": "../types/server"
+  },
+  "include": [
+    "./Server/**/*",
+    "./Shared/**/*"
+  ]
+}

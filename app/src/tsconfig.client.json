@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2019",
+    "outDir": "../dist/client",
+    "rootDir": ".",
+    "declarationDir": "../types/client"
+  },
+  "include": [
+    "./Client/**/*",
+    "./Shared/**/*"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "./src/tsconfig.base.json",
+  "compilerOptions": {
+  },
+  "references": [
+    {
+      "path": "./src/tsconfig.client.json"
+    },
+    {
+      "path": "./src/tsconfig.server.json"
+    }
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "description": "Structure project for desbot",
+  "main": "dist/server/Server/server.js",
+  "scripts": {
+    "start": "node ./dist/server/Server/server.js"
+  },
+  "private": true
+}
